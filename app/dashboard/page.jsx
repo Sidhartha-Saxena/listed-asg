@@ -45,7 +45,7 @@ export default function Page() {
           <li>Contact Us</li>
         </ul>
       </div>
-      <div className="w-[69.4vw] h-[92vh] rounded-[30px] p-2">
+      <div className="w-[70vw] h-[90vh] rounded-[30px]">
         <Charts session={session}/>
       </div>
     </div>

@@ -8,8 +8,8 @@ import PieChart from "./Pie";
 
 export default function Charts({ session }) {
   return (
-    <div className=" flex flex-col gap-4 h-[92vh] p-2">
-      <div className="flex justify-between items-center">
+    <div className=" flex flex-col gap-4 h-full w-full p-2">
+      <div className="flex justify-between items-center w-full">
         <h1 className="text-2xl font-mono font-bold">Dashoard</h1>
         <div className="flex gap-2 items-center justify-end">
           <div className="bg-white flex items-center justify-end rounded-xl px-2">
