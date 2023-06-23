@@ -22,7 +22,14 @@ export default function Charts({ session }) {
           </div>
           <BellIcon className="w-6 text-black" />
           {session ? (
-            <div className="rounded-full"><Image src={session.user.image} width={32} height={32} style={{objectFit: "contain",borderRadius:'100px'}}/></div>
+            <div className="rounded-full">
+              <Image
+                src={session.user.image}
+                width={32}
+                height={32}
+                style={{ objectFit: "contain", borderRadius: "100px" }}
+              />
+            </div>
           ) : (
             <div className="w-8 h-8 rounded-full bg-lime-400"></div>
           )}
@@ -41,7 +48,7 @@ export default function Charts({ session }) {
         <div className="bg-white flex flex-col shadow-sm rounded-3xl w-full h-full p-4 gap-4">
           <div className="flex justify-between items-center px-4">
             <h1 className="font-bold text-lg w-full font-mono capitalize">
-              Today's Schedule
+              Today&apos;s Schedule
             </h1>
             <h2 className="text-xs font-mono w-full text-[#858585] cursor-pointer text-end">
               See All {">"}

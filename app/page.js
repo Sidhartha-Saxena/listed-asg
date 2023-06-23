@@ -4,7 +4,6 @@ import Image from "next/image";
 import { signIn } from "next-auth/react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
 
 export default function Home() {
   const router = useRouter();
@@ -76,7 +75,7 @@ export default function Home() {
               </div>
             </div>
             <h2 className="texy-[#858585] font-sans text-base text-center">
-              Don't have an account?{" "}
+              Don&apos;t have an account?{" "}
               <span className="text-[#346BD4] text-base cursor-pointer font-sans hover:underline">
                 Register here
               </span>

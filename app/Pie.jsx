@@ -73,7 +73,7 @@ export default function PieChart() {
                 {chartData.labels[0].toUpperCase()}
                 <br />
                 <span className="text-xs font-sans text-[#858585]">
-                  {" "}
+
                   {chartData.datasets[0].data[0]}%
                 </span>
               </h1>
@@ -84,7 +84,6 @@ export default function PieChart() {
                 {chartData.labels[1].toUpperCase()}
                 <br />
                 <span className="text-xs font-sans text-[#858585]">
-                  {" "}
                   {chartData.datasets[0].data[1]}%
                 </span>
               </h1>
