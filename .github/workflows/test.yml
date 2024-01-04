@@ -1,0 +1,19 @@
+name: list-asg test
+
+on:
+  pull_request:
+    branches: -main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello World"
+        shell: bash
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Goodbye
+        run: echo "GoodBye"
+        shell: bash
